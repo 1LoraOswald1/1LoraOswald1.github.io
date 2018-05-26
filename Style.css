@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Jura');
 body {
     font-family: "Jura";
+    font-size: 2em;
+    background-color: aqua;
 }
