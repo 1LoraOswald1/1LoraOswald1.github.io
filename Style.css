@@ -1,10 +1,35 @@
 @import url('https://fonts.googleapis.com/css?family=Jura');
 body {
+    margin: 0;
+    padding: 0;
     font-family: "Jura";
     font-size: 2em;
-    background-color: aqua;
-    color: darkorchid;
+    background-color: #CEF6F5;
 }
-p {
-    font-size: 10em;
+header {
+    width: 100%-2px;
+    height: 120px;
+    border: 1px solid #04B4AE;
+    border-bottom: 3px inset #04B4AE;
+    background-color: #2E64FE;
+    margin-bottom: 20px;
+}
+header div p {
+    text-align: center;
+    position: relative;
+    top: -55px;
+    font-style: italic;
+    font-family: arial;
+    color: #CEF6F5;
+    font-size: 2.4em;
+    text-shadow: #FF0000 6px -6px 4px;
+    float: left;
+    left: 20%;
+}
+span {
+    font-size: 0.5em;
+    position: absolute;
+    right: 15px;
+    top: 80px;
+    color: #1A22AE;
 }
