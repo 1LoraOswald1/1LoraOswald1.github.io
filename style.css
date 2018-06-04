@@ -1,6 +1,63 @@
 body {
+    width: 100%;
     margin: 0;
     padding: 0;
+    background: #fff url("fon.svg") repeat-x;
+    font-family: Verdana, Geneva, sans-serif;
 }
 
-header {}
+header {
+    width: 100%;
+}
+header img {
+    display: block;
+    margin: 0 auto;
+}
+.gia {
+    position: absolute;
+    top: 80px;
+    right: 550px;
+    color: #090949;
+}
+.obj {
+    width: 980px;
+    height: 60px;
+    display: block;
+    margin: 0 auto;
+    border: dashed blue 1px;
+    font-size: 11px;
+}
+.above div, .under div {
+    width: 140px;
+    height: 28px;
+    margin-bottom: 2px;
+    border-radius: 16px 7px 16px 7px;
+    background-color: #ffe2c6;
+    float: left;
+    text-align: center;
+    background: linear-gradient(top, #FFF0E6, #FFD2B6);
+    background: -moz-linear-gradient(top, #FFF0E6, #FFD2B6);
+    background: -webkit-linear-gradient(top, #FFF0E6, #FFD2B6);
+    background: -ms-linear-gradient(top, #FFF0E6, #FFD2B6);
+    background: -o-linear-gradient(top, #FFF0E6, #FFD2B6);
+}
+.above div:hover, .under div:hover {
+    background: linear-gradient(top, #FFF0E6, #FFD2B6);
+    background: -moz-linear-gradient(bottom, #FFF0E6, #FFD2B6);
+    background: -webkit-linear-gradient(bottom, #FFF0E6, #FFD2B6);
+    background: -ms-linear-gradient(bottom, #FFF0E6, #FFD2B6);
+    background: -o-linear-gradient(bottom, #FFF0E6, #FFD2B6);
+}
+.obj a {
+    width: 140px;
+    height: 30px;
+}
+.obj a p {
+    display: block;
+    position: relative;
+    top: -5px;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
