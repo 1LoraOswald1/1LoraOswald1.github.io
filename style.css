@@ -6,8 +6,11 @@ body {
     font-family: Verdana, Geneva, sans-serif;
 }
 
+
+
 header {
     width: 100%;
+    margin-bottom: 5px;
 }
 header img {
     display: block;
@@ -18,6 +21,11 @@ header img {
     top: 80px;
     right: 550px;
     color: #090949;
+    text-decoration: underline;
+    font-size: 15px;
+}
+.gia:hover {
+    color: #FF8000;
 }
 .obj {
     width: 980px;
@@ -57,7 +65,52 @@ header img {
     position: relative;
     top: -5px;
 }
+
+
+
+article {
+    margin: 0 auto;
+    width: 980px;
+    height: 1000px;
+    border: dashed red 1px;
+}
+#opening {
+    margin-left: 19.9%;
+    width: 80%;
+    height: 240px;
+    border: dashed green 1px;
+    border-top: 2px solid #006;
+}
+#variants {
+    border: dashed yellow 1px;
+    width: 95%;
+    height: 100px;
+    margin: 0 2.5%;
+}
+.v_15 div {
+    
+}
+.v_610 {}
+.v1115 {}
+#opening h3 {
+    margin-top: 2px;
+}
+#opening p {
+    display: block;
+    margin-top: 0;
+    font-size: 14px;
+}
+
+
+
+
 a {
     text-decoration: none;
     color: black;
+}
+h1, h2, h3, h4, h5, h6 {
+    color: #006;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+    font-weight: 700;
 }
